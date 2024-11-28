@@ -1,7 +1,0 @@
-{
-  "name": "Multi-Env Dev Container",
-  "image": "ghcr.io/dermo64/multi-env-setup:latest",
-  "mounts": [
-    "source=/Users/username/my-project-data,target=/home/vscode/my-project-data,type=bind"
-  ],
-}
