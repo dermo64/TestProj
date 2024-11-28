@@ -2,6 +2,6 @@
   "name": "Multi-Env Dev Container",
   "image": "ghcr.io/dermo64/multi-env-setup:latest",
   "mounts": [
-    "source=/path/to/local/directory,target=/path/in/container,type=bind"
+    "source=/home/doneill2/mounts/testproj,target=/home/vscode/repo,type=bind"
   ],
 }
