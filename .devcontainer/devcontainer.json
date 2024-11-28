@@ -4,4 +4,9 @@
   "mounts": [
     "source=/home/doneill2/mounts/testproj,target=/home/vscode/repo,type=bind"
   ],
+  "build": {
+    "args": {
+      "CACHEBUST": "${timestamp}"
+    }
+  }
 }
